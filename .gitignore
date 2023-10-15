@@ -1,2 +1,5 @@
 *.pd_darwin
 *.pd_darwin_o
+*.o
+*.l_amd64
+.cache
