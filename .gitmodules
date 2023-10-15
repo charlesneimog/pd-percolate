@@ -1,9 +1,6 @@
 [submodule "pd-lib-builder"]
 	path = pd-lib-builder
 	url = https://github.com/pure-data/pd-lib-builder.git
-[submodule "stk"]
-	path = stk
-	url = https://github.com/thestk/stk.git
 [submodule "percolate"]
 	path = percolate
 	url = https://github.com/Cycling74/percolate.git
