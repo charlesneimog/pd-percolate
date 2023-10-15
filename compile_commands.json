@@ -1,0 +1,35 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DPD",
+      "-I",
+      "/home/neimog/Documents/Git/pure-data/src",
+      "-DUNIX",
+      "-fPIC",
+      "-I",
+      "percolate/source/include/",
+      "-Wall",
+      "-Wextra",
+      "-Wshadow",
+      "-Winline",
+      "-Wstrict-aliasing",
+      "-O3",
+      "-ffast-math",
+      "-funroll-loops",
+      "-fomit-frame-pointer",
+      "-march=core2",
+      "-mfpmath=sse",
+      "-msse",
+      "-msse2",
+      "-msse3",
+      "-c",
+      "-o",
+      "PeRColate_source/1_Physical_Models/blotar/blotar~.l_amd64.o",
+      "PeRColate_source/1_Physical_Models/blotar/blotar~.c"
+    ],
+    "directory": "/home/neimog/Documents/Git/pd-percolate",
+    "file": "/home/neimog/Documents/Git/pd-percolate/PeRColate_source/1_Physical_Models/blotar/blotar~.c",
+    "output": "/home/neimog/Documents/Git/pd-percolate/PeRColate_source/1_Physical_Models/blotar/blotar~.l_amd64.o"
+  }
+]
