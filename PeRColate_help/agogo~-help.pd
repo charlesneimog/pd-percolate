@@ -14,7 +14,7 @@
 #X floatatom 438 347 5 0 0 0 - - - 0;
 #X text 297 176 amp;
 #X text 435 171 freq;
-#X msg 110 301 noteon;
+#X msg 85 301 noteon;
 #X msg 154 301 noteoff;
 #X text 13 -3 agogo~;
 #X text 13 11 agogo modal synthesis model;

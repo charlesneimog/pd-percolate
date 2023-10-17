@@ -118,16 +118,14 @@ static t_int *cabasa_perform(t_int *w) {
     t_float *out = (t_float *)(w[2]);
     long n = w[3];
 
-    float lastOutput, temp;
-    long temp2;
+    float lastOutput;
+    // long temp2;
 
     if (num_objects != x->num_objectsSave) {
         if (num_objects < 1.)
             num_objects = 1.;
         x->num_objects = (long)num_objects;
         x->num_objectsSave = (long)num_objects;
-        // x->gain = log(num_objects) * 30. / (float)num_objects;
-        // x->gain = log(num_objects) / log(4.0) * 40.0 / (float)num_objects;
         x->gain = log(num_objects) / log(4.0) * 120.0 / (float)num_objects;
     }
 
@@ -184,10 +182,13 @@ void *cabasa_new(double initial_coeff) {
     // user controlled vars
 
     t_cabasa *x = (t_cabasa *)pd_new(cabasa_class);
-    // zero out the struct, to be careful (takk to jkclayton)
-    if (x) {
-        for (i = sizeof(t_object); i < sizeof(t_cabasa); i++)
+    if (x != NULL) {
+        for (i = sizeof(t_object); i < sizeof(t_cabasa); i++) {
             ((char *)x)[i] = 0;
+        }
+    } else {
+        perror("Not enough memory for cabasa object");
+        return NULL;
     }
     outlet_new(&x->x_obj, gensym("signal"));
 
@@ -207,7 +208,7 @@ void *cabasa_new(double initial_coeff) {
 
     cabasa_setup(x);
 
-    srand(2);
+    srand(54);
 
     return (x);
 }

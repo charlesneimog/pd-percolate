@@ -48,7 +48,7 @@
 #X obj 684 66 metro 140;
 #N canvas 0 0 450 300 (subpatch) 0;
 #X array mycoll 16 float 1;
-#A 0 71 0 72 76 69 72 76 67 0 72 76 67 69 0 72 76;
+#A 0 12.8584 42.8575 67.1425 88.5704 2.85871 10.0014 41.429 62.8569 67.1425 30.0007 64.2854 85.7133 67.1425 31.4293 24.2866 37.1426;
 #X coords 0 100 15 0 100 70 1;
 #X restore 701 313 graph;
 #X obj 684 114 tabread mycoll;
@@ -57,6 +57,7 @@
 #X obj 261 288 mandolin~, f 54;
 #X obj 261 344 dac~;
 #X msg 261 46 1 0.14 0.39 1 1.16 53;
+#X obj 514 21 loadbang;
 #X connect 0 0 1 0;
 #X connect 1 0 53 0;
 #X connect 2 0 4 0;
@@ -90,3 +91,4 @@
 #X connect 51 0 52 0;
 #X connect 51 0 52 1;
 #X connect 53 0 2 0;
+#X connect 54 0 45 0;

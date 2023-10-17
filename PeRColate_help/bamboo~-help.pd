@@ -23,7 +23,7 @@
 #X text 18 242 computer music;
 #X text 18 251 center \, columbia;
 #X text 19 259 university;
-#N canvas 1162 256 543 346 mypresets 1;
+#N canvas 1162 256 543 346 mypresets 0;
 #X obj 2 2 inlet;
 #X obj 2 231 outlet;
 #X obj 40 231 outlet;
@@ -95,6 +95,7 @@
 #X obj 415 122 bng 15 250 50 0 empty empty empty 0 -6 0 8 #fcfcfc #000000 #000000;
 #X obj 346 68 metro 200;
 #X obj 202 447 dac~;
+#X obj 317 258 bng 18 250 50 0 empty empty empty 0 -9 0 10 #fcfcfc #000000 #000000;
 #X connect 0 0 1 0;
 #X connect 1 0 64 0;
 #X connect 2 0 3 0;
@@ -126,12 +127,12 @@
 #X connect 47 0 10 0;
 #X connect 50 0 68 0;
 #X connect 51 0 52 0;
-#X connect 52 0 6 0;
 #X connect 53 0 54 0;
 #X connect 54 0 55 0;
-#X connect 55 0 2 0;
 #X connect 64 0 69 0;
 #X connect 64 0 69 1;
+#X connect 67 0 70 0;
 #X connect 68 0 51 0;
 #X connect 68 0 53 0;
 #X connect 68 0 67 0;
+#X connect 70 0 7 0;

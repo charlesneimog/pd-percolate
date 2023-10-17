@@ -11,22 +11,22 @@ blotar~.class.sources := PeRColate_source/1_Physical_Models/blotar/blotar~.c $(s
 bowed~.class.sources := PeRColate_source/1_Physical_Models/bowed/bowed~.c $(sdk)
 bowedbar~.class.sources := PeRColate_source/1_Physical_Models/bowedbar/bowedbar~.c $(sdk)
 brass~.class.sources := PeRColate_source/1_Physical_Models/brass/brass~.c $(sdk)
-# clarinet~.class.sources := PeRColate_source/1_Physical_Models/clarinet/clar~.c $(sdk)
-# flute~.class.sources := PeRColate_source/1_Physical_Models/flute/flute~.c $(sdk)
-# mandolin~.class.sources := PeRColate_source/1_Physical_Models/mandolin/mandolin~.c $(sdk)
-# plucked~.class.sources := PeRColate_source/1_Physical_Models/plucked/plucked~.c $(sdk)
+clarinet~.class.sources := PeRColate_source/1_Physical_Models/clarinet/clar~.c $(sdk)
+flute~.class.sources := PeRColate_source/1_Physical_Models/flute/flute~.c $(sdk)
+mandolin~.class.sources := PeRColate_source/1_Physical_Models/mandolin/mandolin~.c $(sdk)
+plucked~.class.sources := PeRColate_source/1_Physical_Models/plucked/plucked~.c $(sdk)
 #
 # # 2_Modal_Synthesis
-# agogo~.class.sources := PeRColate_source/2_Modal_Synthesis/agogo/agogo~.c $(sdk)
-# marimba~.class.sources := PeRColate_source/2_Modal_Synthesis/marimba/marimba~.c $(sdk)
-# vibraphone~.class.sources := PeRColate_source/2_Modal_Synthesis/vibraphone/vibraphone~.c $(sdk) 
+agogo~.class.sources := PeRColate_source/2_Modal_Synthesis/agogo/agogo~.c $(sdk)
+marimba~.class.sources := PeRColate_source/2_Modal_Synthesis/marimba/marimba~.c $(sdk)
+vibraphone~.class.sources := PeRColate_source/2_Modal_Synthesis/vibraphone/vibraphone~.c $(sdk) 
 #
 # # 3_PhISM
-# bamboo~.class.sources := PeRColate_source/3_PhISM/bamboo/bamboo~.c 
-cabasa~.class.sources := PeRColate_source/3_PhISM/cabasa/cabasa~.c
+bamboo~.class.sources := PeRColate_source/3_PhISM/bamboo/bamboo~.c 
+# cabasa~.class.sources := PeRColate_source/3_PhISM/cabasa/cabasa~.c
 # guiro~.class.sources := PeRColate_source/3_PhISM/guiro/guiro~.c
 # metashake~.class.sources := PeRColate_source/3_PhISM/meta-shaker/metashake~.c
-# sekere~.class.sources := PeRColate_source/3_PhISM/sekere/sekere~.c
+sekere~.class.sources := PeRColate_source/3_PhISM/sekere/sekere~.c
 # shaker~.class.sources := PeRColate_source/3_PhISM/shaker/shaker~.c
 # sleigh~.class.sources := PeRColate_source/3_PhISM/sleighbells/sleigh~.c
 # tamb~.class.sources := PeRColate_source/3_PhISM/tamb/tamb~.c
@@ -45,11 +45,11 @@ cabasa~.class.sources := PeRColate_source/3_PhISM/cabasa/cabasa~.c
 # # 5_SID
 # absmax~.class.sources := PeRColate_source/5_SID/absmax~/absmax~.c
 # absmin~.class.sources := PeRColate_source/5_SID/absmin~/absmin~.c
-# chase~.class.sources := PeRColate_source/5_SID/chase~/chase~.c
+chase~.class.sources := PeRColate_source/5_SID/chase~/chase~.c
 # escalator~.class.sources := PeRColate_source/5_SID/escal~/escalator~.c
 # flip~.class.sources := PeRColate_source/5_SID/flip~/flip~.c
 # jitter~.class.sources := PeRColate_source/5_SID/jitter~/jitter~.c
-# klutz~.class.sources := PeRColate_source/5_SID/klutz~/klutz~.c 
+klutz~.class.sources := PeRColate_source/5_SID/klutz~/klutz~.c 
 # random~.class.sources := PeRColate_source/5_SID/random~/random~.c
 # terrain~.class.sources := PeRColate_source/5_SID/terrain~/terrain~.c
 # waffle~.class.sources := PeRColate_source/5_SID/waffle~/waffle~.c
